@@ -1,0 +1,148 @@
+.replacement_area {
+  background: #7fa1f1;
+  border-top: 6px solid #bb202e;
+}
+.replacement_area .media .media-body {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.replacement_area .media .media-body h4 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 13px;
+}
+.replacement_area .media .media-body h5 {
+  margin-bottom: 0;
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+}
+.replacement_area .media .media-body h5 a {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  color: #d4482e;
+  margin-left: 8px;
+}
+.media-body {
+  -ms-flex: 1;
+  flex: 1;
+}
+.footer-logo img {
+  width: 80%;
+}
+.review-section {
+  padding: 16px 0;
+  background-color: #f8f9fa;
+}
+.review-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.review-icon {
+  color: #ffc107;
+}
+.review-card img {
+  width: 18%;
+  margin-right: 20px;
+}
+.modal-content {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background: linear-gradient(to right, #4caf50, #8bc34a);
+  color: white;
+  font-weight: bold;
+  border-radius: 15px 15px 0 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-title {
+  font-size: 24px;
+}
+
+.modal-body {
+  padding: 0;
+  position: relative;
+}
+
+.modal-body video {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.modal-body video:hover {
+  transform: scale(1.05); /* Scale the video on hover */
+}
+
+/* Fancy Close Button */
+.btn-close {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-close:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Fancy Overlay */
+.modal-backdrop.show {
+  opacity: 0.7 !important;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#map {
+  height: 500px; /* Set map height */
+  width: 100%;
+}
+i {
+  color: #ffc107 !important;
+}
+.modal .modal-dialog .modal-content {
+  background-color: #444 !important;
+}
+/* Additional custom styles */
+.modal-content {
+  border-radius: 10px;
+}
+.modal-header {
+  background-color: #e6b634;
+  color: white;
+}
+.modal-footer {
+  background-color: #f1f1f1;
+}
+.offer-btn {
+  background-color: #034786;
+  color: white;
+}
+.offer-btn:hover {
+  background-color: #012e53;
+  color: white;
+}
