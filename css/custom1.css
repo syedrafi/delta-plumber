@@ -1,3 +1,29 @@
+.sticky-social-icons {
+  position: fixed;
+  right:20px;
+  bottom:20px;
+}
+.whatsapp-icon {
+position: fixed; /* Keeps it in place even when scrolling */
+bottom: 20px; /* Distance from the bottom */
+right: 20px; /* Distance from the right */
+z-index: 1000; /* Ensures it's on top of other elements */
+
+padding: 15px;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+cursor: pointer; /* Changes cursor on hover */
+}
+
+.whatsapp-icon:hover {
+opacity: 0.8; /* Slight fade on hover */
+}
+
+.whatsapp-icon img {
+
+/* Optional:  Set the display to block for better centering */
+display: block;
+}
 .replacement_area {
   background: #c8e9ff;
   border-top: 6px solid #bb202e;
